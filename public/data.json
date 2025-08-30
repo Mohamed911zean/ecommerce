@@ -1,0 +1,657 @@
+{
+  "laptops": [
+    {
+      "id": 1,
+      "name": "ASUS F16 Gaming Laptop",
+      "price": 899.99,
+      "img": "pohtos/Asus-f16.jpg",
+      "instock": true,
+      "description": "Powerful gaming laptop with Intel Core i7 processor, 16GB RAM, and NVIDIA RTX 4060 graphics card. Perfect for gaming and content creation."
+    },
+    {
+      "id": 2,
+      "name": "ASUS ROG Strix Gaming Laptop",
+      "price": 1299.99,
+      "img": "pohtos/Asus-strix.jpg",
+      "instock": true,
+      "description": "High-performance ROG Strix gaming laptop featuring AMD Ryzen 9 processor, 32GB RAM, and RTX 4070 graphics for ultimate gaming experience."
+    },
+    {
+      "id": 3,
+      "name": "ASUS VivoBook 14",
+      "price": 549.99,
+      "img": "pohtos/Asus-vivobook-14.jpg",
+      "instock": false,
+      "description": "Lightweight and portable 14-inch laptop with Intel Core i5, 8GB RAM, and 512GB SSD. Ideal for students and professionals."
+    },
+    {
+      "id": 4,
+      "name": "ASUS VivoBook S14",
+      "price": 649.99,
+      "img": "pohtos/Asus-vivobook-s14.jpg",
+      "instock": true,
+      "description": "Sleek and stylish VivoBook S14 with Intel Core i7, 16GB RAM, and premium build quality for productivity and entertainment."
+    },
+    {
+      "id": 5,
+      "name": "ASUS VivoBook Slim Go",
+      "price": 399.99,
+      "img": "pohtos/Asus-vivobook-slimgo.jpg",
+      "instock": true,
+      "description": "Ultra-portable and affordable laptop with Intel Celeron processor, 4GB RAM, perfect for basic computing tasks and students."
+    },
+    {
+      "id": 6,
+      "name": "Dell Alienware 16",
+      "price": 2199.99,
+      "img": "pohtos/Dell-aleinware-16.jpg",
+      "instock": true,
+      "description": "Premium gaming powerhouse with Intel Core i9, 32GB RAM, RTX 4080, and advanced cooling system for extreme gaming performance."
+    },
+    {
+      "id": 7,
+      "name": "Dell Inspiron 3520",
+      "price": 479.99,
+      "img": "pohtos/Dell-inspirion-3520.jpg",
+      "instock": false,
+      "description": "Reliable everyday laptop with Intel Core i3, 8GB RAM, and 256GB SSD. Great for home office and basic productivity tasks."
+    },
+    {
+      "id": 8,
+      "name": "Dell Inspiron",
+      "price": 599.99,
+      "img": "pohtos/Dell-insprion.jpg",
+      "instock": true,
+      "description": "Versatile Dell Inspiron laptop with Intel Core i5, 12GB RAM, and 512GB SSD for balanced performance and reliability."
+    },
+    {
+      "id": 9,
+      "name": "HP OMEN Gaming Laptop",
+      "price": 1099.99,
+      "img": "pohtos/Hp-omen.jpg",
+      "instock": true,
+      "description": "Gaming-focused HP OMEN with AMD Ryzen 7, 16GB RAM, RTX 4060, and RGB keyboard for immersive gaming experience."
+    },
+    {
+      "id": 10,
+      "name": "HP ProBook",
+      "price": 749.99,
+      "img": "pohtos/Hp-probook.jpg",
+      "instock": true,
+      "description": "Business-grade HP ProBook with Intel Core i5, 16GB RAM, and enterprise security features for professional use."
+    },
+    {
+      "id": 11,
+      "name": "LG Gram Ultrabook",
+      "price": 999.99,
+      "img": "pohtos/Lg-gram.jpg",
+      "instock": false,
+      "description": "Ultra-lightweight LG Gram with 17-inch display, Intel Core i7, 16GB RAM, and all-day battery life."
+    },
+    {
+      "id": 12,
+      "name": "MacBook Air 13-inch M4",
+      "price": 1199.99,
+      "img": "pohtos/Macbook-air-13-m4.jpg",
+      "instock": true,
+      "description": "Latest MacBook Air with Apple M4 chip, 8GB unified memory, 256GB SSD, and stunning Retina display."
+    },
+    {
+      "id": 13,
+      "name": "MacBook Air 13-inch",
+      "price": 999.99,
+      "img": "pohtos/Macbook-air-13.jpg",
+      "instock": true,
+      "description": "Classic MacBook Air with Apple M2 chip, 8GB memory, 256GB storage, and exceptional battery life."
+    },
+    {
+      "id": 14,
+      "name": "MacBook Pro M1",
+      "price": 1299.99,
+      "img": "pohtos/Macbook-pro-m1.jpg",
+      "instock": true,
+      "description": "Powerful MacBook Pro with Apple M1 chip, 8GB unified memory, 256GB SSD, and professional-grade performance."
+    },
+    {
+      "id": 15,
+      "name": "MacBook Pro M1 Pro",
+      "price": 1999.99,
+      "img": "pohtos/Macbook-pro-m1-2.jpg",
+      "instock": false,
+      "description": "High-end MacBook Pro with M1 Pro chip, 16GB memory, 512GB SSD, and advanced display technology."
+    },
+    {
+      "id": 16,
+      "name": "MacBook Pro M2",
+      "price": 1499.99,
+      "img": "pohtos/Macbook-pro-m2.jpg",
+      "instock": true,
+      "description": "Enhanced MacBook Pro with Apple M2 chip, 8GB memory, 512GB SSD, and improved performance capabilities."
+    },
+    {
+      "id": 17,
+      "name": "MacBook Pro M4",
+      "price": 1799.99,
+      "img": "pohtos/Macbook-pro-m4.jpg",
+      "instock": true,
+      "description": "Latest MacBook Pro with cutting-edge M4 chip, 16GB memory, 512GB SSD, and revolutionary performance."
+    },
+    {
+      "id": 18,
+      "name": "MSI Katana Gaming Laptop",
+      "price": 949.99,
+      "img": "pohtos/Msi-katana.jpg",
+      "instock": true,
+      "description": "MSI Katana gaming laptop with Intel Core i7, 16GB RAM, RTX 4050, and aggressive gaming design."
+    },
+    
+    {
+      "id": 20,
+      "name": "Lenovo IdeaPad Chromebook",
+      "price": 299.99,
+      "img": "pohtos/lenovo-ideapad-chromebook.jpg",
+      "instock": true,
+      "description": "Affordable Chromebook with Chrome OS, Intel Celeron processor, 4GB RAM, perfect for web browsing and basic tasks."
+    },
+    {
+      "id": 21,
+      "name": "Lenovo IdeaPad SX",
+      "price": 679.99,
+      "img": "pohtos/lenovo-ideapad-sx.jpg",
+      "instock": true,
+      "description": "Versatile Lenovo IdeaPad with AMD Ryzen 5, 8GB RAM, 512GB SSD, and modern design for everyday computing."
+    }
+  ],
+  "phones": [
+    {
+      "id": 22,
+      "name": "iPhone 11",
+      "price": 499.99,
+      "img": "pohtos/Iphone-11.jpg",
+      "instock": true,
+      "description": "Classic iPhone 11 with A13 Bionic chip, dual-camera system, and all-day battery life in multiple colors."
+    },
+    {
+      "id": 23,
+      "name": "iPhone 11 Pro Max",
+      "price": 699.99,
+      "img": "pohtos/Iphone-11-promax.jpg",
+      "instock": false,
+      "description": "Premium iPhone 11 Pro Max with triple-camera system, Super Retina XDR display, and professional photography features."
+    },
+    {
+      "id": 24,
+      "name": "iPhone 12",
+      "price": 599.99,
+      "img": "pohtos/Iphone-12.jpg",
+      "instock": true,
+      "description": "iPhone 12 with A14 Bionic chip, 5G connectivity, Ceramic Shield, and improved camera system."
+    },
+    {
+      "id": 25,
+      "name": "iPhone 13",
+      "price": 699.99,
+      "img": "pohtos/Iphone-13.jpg",
+      "instock": true,
+      "description": "iPhone 13 featuring A15 Bionic chip, advanced dual-camera system, and longer battery life."
+    },
+    {
+      "id": 26,
+      "name": "iPhone 14 Plus",
+      "price": 799.99,
+      "img": "pohtos/Iphone-14-plus.jpg",
+      "instock": true,
+      "description": "Large-screen iPhone 14 Plus with 6.7-inch display, A15 Bionic chip, and enhanced camera capabilities."
+    },
+    {
+      "id": 27,
+      "name": "iPhone 14 Pro Max",
+      "price": 1099.99,
+      "img": "pohtos/Iphone-14-promax.jpg",
+      "instock": false,
+      "description": "Top-tier iPhone 14 Pro Max with A16 Bionic chip, Dynamic Island, and pro camera system with 48MP main camera."
+    },
+    {
+      "id": 28,
+      "name": "iPhone 15",
+      "price": 799.99,
+      "img": "pohtos/Iphone-15.jpg",
+      "instock": true,
+      "description": "Latest iPhone 15 with USB-C, A16 Bionic chip, and improved camera system with 2x Telephoto."
+    },
+    {
+      "id": 29,
+      "name": "iPhone 15 Plus",
+      "price": 899.99,
+      "img": "pohtos/Iphone-15-plus.jpg",
+      "instock": true,
+      "description": "iPhone 15 Plus with large 6.7-inch display, USB-C connectivity, and all-day battery life."
+    },
+    {
+      "id": 30,
+      "name": "iPhone 15 Pro",
+      "price": 999.99,
+      "img": "pohtos/Iphone-15-pro.jpg",
+      "instock": true,
+      "description": "Professional iPhone 15 Pro with titanium design, A17 Pro chip, and advanced pro camera system."
+    },
+    {
+      "id": 31,
+      "name": "iPhone 16",
+      "price": 899.99,
+      "img": "pohtos/Iphone-16.jpg",
+      "instock": true,
+      "description": "Newest iPhone 16 with A18 chip, Camera Control button, and enhanced AI capabilities."
+    },
+    {
+      "id": 32,
+      "name": "Samsung Galaxy S22 Plus",
+      "price": 749.99,
+      "img": "pohtos/Samsung-s22-plus.jpg",
+      "instock": false,
+      "description": "Samsung Galaxy S22+ with Snapdragon 8 Gen 1, triple camera system, and 120Hz Dynamic AMOLED display."
+    },
+    {
+      "id": 33,
+      "name": "Samsung Galaxy S25",
+      "price": 899.99,
+      "img": "pohtos/Samsung-s25.jpg",
+      "instock": true,
+      "description": "Latest Samsung Galaxy S25 with Snapdragon 8 Gen 3, AI-enhanced camera, and premium design."
+    },
+    {
+      "id": 34,
+      "name": "Samsung Galaxy S25 Plus",
+      "price": 999.99,
+      "img": "pohtos/Samsung-s25-plus.jpg",
+      "instock": true,
+      "description": "Samsung Galaxy S25+ with larger display, enhanced battery life, and professional photography features."
+    },
+    {
+      "id": 35,
+      "name": "Samsung Galaxy S25 Ultra",
+      "price": 1299.99,
+      "img": "pohtos/Samsung-s25-ultra.jpg",
+      "instock": true,
+      "description": "Premium Galaxy S25 Ultra with S Pen, 200MP camera, and cutting-edge performance capabilities."
+    },
+    {
+      "id": 36,
+      "name": "Samsung Galaxy S25 Edge",
+      "price": 1199.99,
+      "img": "pohtos/Samsung-s25-edge.jpg",
+      "instock": false,
+      "description": "Innovative Galaxy S25 Edge with curved display design and premium flagship features."
+    },
+    {
+      "id": 37,
+      "name": "Samsung Galaxy Z Flip 7",
+      "price": 1099.99,
+      "img": "pohtos/Samsung-zflip-7.jpg",
+      "instock": true,
+      "description": "Foldable Samsung Galaxy Z Flip 7 with compact design, flexible display, and innovative form factor."
+    },
+    {
+      "id": 38,
+      "name": "Samsung Galaxy Z Fold 7",
+      "price": 1899.99,
+      "img": "pohtos/Samsung-zfold-7.jpg",
+      "instock": true,
+      "description": "Revolutionary Galaxy Z Fold 7 with large foldable display, multitasking capabilities, and premium build."
+    },
+    {
+      "id": 39,
+      "name": "Samsung Galaxy A36",
+      "price": 349.99,
+      "img": "pohtos/Samsung-a36.jpg",
+      "instock": true,
+      "description": "Mid-range Galaxy A36 with great camera system, long battery life, and affordable flagship features."
+    },
+    {
+      "id": 40,
+      "name": "Google Pixel 9",
+      "price": 699.99,
+      "img": "pohtos/Pixel-9.jpg",
+      "instock": true,
+      "description": "Google Pixel 9 with Tensor G4 chip, advanced AI photography, and pure Android experience."
+    },
+    {
+      "id": 41,
+      "name": "Google Pixel 9 Pro XL",
+      "price": 999.99,
+      "img": "pohtos/Pixel-9-proxl.jpg",
+      "instock": false,
+      "description": "Premium Pixel 9 Pro XL with large display, professional camera system, and Google AI integration."
+    },
+    {
+      "id": 42,
+      "name": "OnePlus 13",
+      "price": 799.99,
+      "img": "pohtos/Oneplus-13.jpg",
+      "instock": true,
+      "description": "OnePlus 13 with Snapdragon 8 Gen 3, fast charging, and flagship performance at competitive price."
+    },
+    {
+      "id": 43,
+      "name": "Xiaomi 12 Pro",
+      "price": 649.99,
+      "img": "pohtos/Xiaomi-12-pro.jpg",
+      "instock": true,
+      "description": "Xiaomi 12 Pro with Snapdragon 8 Gen 1, 120W fast charging, and premium camera system."
+    },
+    {
+      "id": 44,
+      "name": "Xiaomi 14",
+      "price": 699.99,
+      "img": "pohtos/Xiaomi-14.jpg",
+      "instock": true,
+      "description": "Xiaomi 14 with Snapdragon 8 Gen 3, Leica camera system, and flagship performance features."
+    },
+    {
+      "id": 45,
+      "name": "Xiaomi 14T",
+      "price": 549.99,
+      "img": "pohtos/Xiaomi-14t.jpg",
+      "instock": false,
+      "description": "Xiaomi 14T with MediaTek Dimensity processor, great camera performance, and competitive pricing."
+    },
+    {
+      "id": 46,
+      "name": "Xiaomi 15",
+      "price": 799.99,
+      "img": "pohtos/Xiaomi-15.jpg",
+      "instock": true,
+      "description": "Latest Xiaomi 15 with Snapdragon 8 Elite, advanced camera system, and premium build quality."
+    },
+    {
+      "id": 47,
+      "name": "OPPO Reno 10 Pro",
+      "price": 499.99,
+      "img": "pohtos/Oppo-reno-10-pro.jpg",
+      "instock": true,
+      "description": "OPPO Reno 10 Pro with portrait photography focus, fast charging, and elegant design."
+    },
+    {
+      "id": 48,
+      "name": "OPPO Reno 13 Pro",
+      "price": 599.99,
+      "img": "pohtos/Oppo-reno-13-pro.jpg",
+      "instock": true,
+      "description": "OPPO Reno 13 Pro with enhanced camera capabilities, premium design, and smooth performance."
+    },
+    {
+      "id": 49,
+      "name": "Realme GT7 Pro",
+      "price": 549.99,
+      "img": "pohtos/Realme-gt7.jpg",
+      "instock": true,
+      "description": "Realme GT7 Pro with flagship performance, gaming optimization, and competitive pricing."
+    },
+    {
+      "id": 50,
+      "name": "Realme C75",
+      "price": 199.99,
+      "img": "pohtos/Realme-c75.jpg",
+      "instock": true,
+      "description": "Budget-friendly Realme C75 with large battery, decent camera, and reliable performance for everyday use."
+    },
+    {
+      "id": 51,
+      "name": "Redmi Note 13 Pro Plus",
+      "price": 349.99,
+      "img": "pohtos/Redmi-note-13-proplus.jpg",
+      "instock": false,
+      "description": "Redmi Note 13 Pro+ with 200MP camera, fast charging, and excellent value for money."
+    },
+    {
+      "id": 52,
+      "name": "Redmi Note 14 Pro",
+      "price": 299.99,
+      "img": "pohtos/Redmi-note-14-pro.jpg",
+      "instock": true,
+      "description": "Redmi Note 14 Pro with balanced performance, good camera system, and affordable pricing."
+    },
+    {
+      "id": 53,
+      "name": "Redmi 14C",
+      "price": 149.99,
+      "img": "pohtos/Redmi-14c.jpg",
+      "instock": true,
+      "description": "Entry-level Redmi 14C with basic smartphone features, long battery life, and budget-friendly price."
+    },
+    {
+      "id": 54,
+      "name": "POCO X7 Pro",
+      "price": 399.99,
+      "img": "pohtos/Poco-x7-pro.jpg",
+      "instock": true,
+      "description": "POCO X7 Pro with gaming-focused features, powerful processor, and aggressive pricing strategy."
+    },
+    {
+      "id": 55,
+      "name": "RedMagic 10 Pro",
+      "price": 649.99,
+      "img": "pohtos/Redmagic-10-pro.jpg",
+      "instock": true,
+      "description": "Gaming-focused RedMagic 10 Pro with advanced cooling, high refresh rate display, and gaming accessories."
+    },
+    {
+      "id": 56,
+      "name": "Nothing Phone 2a",
+      "price": 399.99,
+      "img": "pohtos/Nothing-2a.jpg",
+      "instock": false,
+      "description": "Unique Nothing Phone 2a with transparent design, Glyph interface, and distinctive aesthetic appeal."
+    },
+    {
+      "id": 57,
+      "name": "Motorola Moto G",
+      "price": 249.99,
+      "img": "pohtos/Moto-g.jpg",
+      "instock": true,
+      "description": "Classic Motorola Moto G with clean Android experience, reliable performance, and affordable pricing."
+    },
+    {
+      "id": 58,
+      "name": "Honor Magic 6 Pro",
+      "price": 699.99,
+      "img": "pohtos/Honor-400pro.jpg",
+      "instock": true,
+      "description": "Honor Magic 6 Pro with advanced camera system, premium design, and flagship performance features."
+    },
+    {
+      "id": 59,
+      "name": "Honor Magic 6",
+      "price": 599.99,
+      "img": "pohtos/Honor-400.jpg",
+      "instock": true,
+      "description": "Honor Magic 6 with balanced features, good camera performance, and competitive mid-range pricing."
+    }
+  ],
+  "accessories": [
+    {
+      "id": 60,
+      "name": "AirPods 2nd Generation",
+      "price": 129.99,
+      "img": "pohtos/airpods-2nd.jpg",
+      "instock": true,
+      "description": "Classic AirPods with H1 chip, quick setup, and seamless Apple device integration."
+    },
+    {
+      "id": 61,
+      "name": "AirPods Max",
+      "price": 549.99,
+      "img": "pohtos/airpods-max.jpg",
+      "instock": false,
+      "description": "Premium over-ear AirPods Max with active noise cancellation, spatial audio, and luxury design."
+    },
+    {
+      "id": 62,
+      "name": "Apple Watch Series 10",
+      "price": 399.99,
+      "img": "pohtos/apple-watch-10.jpg",
+      "instock": true,
+      "description": "Latest Apple Watch with advanced health monitoring, fitness tracking, and seamless iPhone integration."
+    },
+    {
+      "id": 63,
+      "name": "Samsung Galaxy Buds 3 Pro",
+      "price": 249.99,
+      "img": "pohtos/galaxy-buds-3-pro.jpg",
+      "instock": true,
+      "description": "Premium Galaxy Buds with active noise cancellation, 360 audio, and Samsung device optimization."
+    },
+    {
+      "id": 64,
+      "name": "Samsung Galaxy Watch 7",
+      "price": 329.99,
+      "img": "pohtos/galaxy-watch-7.jpg",
+      "instock": true,
+      "description": "Samsung Galaxy Watch 7 with comprehensive health tracking, Wear OS, and Samsung ecosystem integration."
+    },
+    {
+      "id": 65,
+      "name": "Samsung Galaxy Watch 8",
+      "price": 379.99,
+      "img": "pohtos/galaxy-watch-8.jpg",
+      "instock": false,
+      "description": "Advanced Galaxy Watch 8 with enhanced sensors, longer battery life, and premium features."
+    },
+    {
+      "id": 66,
+      "name": "Samsung Galaxy Watch Ultra",
+      "price": 649.99,
+      "img": "pohtos/galaxy-watch-ultra.jpg",
+      "instock": true,
+      "description": "Rugged Galaxy Watch Ultra with extreme durability, advanced fitness tracking, and outdoor features."
+    },
+    {
+      "id": 67,
+      "name": "Google Pixel Watch 3",
+      "price": 349.99,
+      "img": "pohtos/pixel-watch-3.jpg",
+      "instock": true,
+      "description": "Google Pixel Watch 3 with Wear OS, Fitbit integration, and Google Assistant capabilities."
+    },
+    {
+      "id": 68,
+      "name": "Huawei Watch GT5",
+      "price": 249.99,
+      "img": "pohtos/huawei-watch-gt5.jpg",
+      "instock": true,
+      "description": "Huawei Watch GT5 with long battery life, comprehensive health monitoring, and elegant design."
+    },
+    {
+      "id": 69,
+      "name": "Redmi Watch 4",
+      "price": 79.99,
+      "img": "pohtos/redmi-watch-4.jpg",
+      "instock": true,
+      "description": "Affordable Redmi Watch 4 with basic fitness tracking, notifications, and budget-friendly features."
+    },
+    {
+      "id": 70,
+      "name": "Redmi Watch 5",
+      "price": 99.99,
+      "img": "pohtos/redmi-watch-5.jpg",
+      "instock": false,
+      "description": "Enhanced Redmi Watch 5 with improved features, better display, and extended functionality."
+    },
+    {
+      "id": 71,
+      "name": "Redmi Watch Active",
+      "price": 59.99,
+      "img": "pohtos/redmi-watch-active.jpg",
+      "instock": true,
+      "description": "Entry-level Redmi Watch Active with basic fitness tracking and essential smartwatch features."
+    },
+    {
+      "id": 72,
+      "name": "Sony WH-1000XM4",
+      "price": 349.99,
+      "img": "pohtos/sony-wh-1000mx4.jpg",
+      "instock": true,
+      "description": "Industry-leading Sony WH-1000XM4 with exceptional noise cancellation and premium audio quality."
+    },
+    {
+      "id": 73,
+      "name": "Sony WH-1000XM6",
+      "price": 399.99,
+      "img": "pohtos/sony-wh-1000xm6.jpg",
+      "instock": true,
+      "description": "Latest Sony WH-1000XM6 with improved noise cancellation, better battery life, and enhanced features."
+    },
+    {
+      "id": 74,
+      "name": "Sony WH-CH720N",
+      "price": 149.99,
+      "img": "pohtos/Sony-wh-ch720n.jpg",
+      "instock": false,
+      "description": "Mid-range Sony WH-CH720N with noise cancellation, comfortable design, and good audio quality."
+    },
+    {
+      "id": 75,
+      "name": "Beats Headphones",
+      "price": 199.99,
+      "img": "pohtos/beats.jpg",
+      "instock": true,
+      "description": "Stylish Beats headphones with powerful bass, Apple integration, and trendy design aesthetics."
+    },
+    {
+      "id": 76,
+      "name": "JBL Tune Headphones",
+      "price": 79.99,
+      "img": "pohtos/jbl-tune.jpg",
+      "instock": true,
+      "description": "Affordable JBL Tune headphones with JBL Pure Bass sound and comfortable wearing experience."
+    },
+    {
+      "id": 77,
+      "name": "JBL GO Portable Speaker",
+      "price": 39.99,
+      "img": "pohtos/jbl-go.jpg",
+      "instock": true,
+      "description": "Compact JBL GO speaker with wireless connectivity, portable design, and surprisingly good sound."
+    },
+    {
+      "id": 78,
+      "name": "Soundcore Headphones",
+      "price": 89.99,
+      "img": "pohtos/soundcore.jpg",
+      "instock": true,
+      "description": "Anker Soundcore headphones with balanced audio, comfortable fit, and excellent value for money."
+    },
+    {
+      "id": 79,
+      "name": "Amazon Echo Smart Speaker",
+      "price": 99.99,
+      "img": "pohtos/amazon-echo.jpg",
+      "instock": false,
+      "description": "Amazon Echo with Alexa voice assistant, smart home control, and premium audio quality."
+    },
+    {
+      "id": 80,
+      "name": "UGREEN 20000mAh Power Bank",
+      "price": 49.99,
+      "img": "pohtos/Ugreen-20000ml.jpg",
+      "instock": true,
+      "description": "High-capacity UGREEN power bank with fast charging, multiple ports, and reliable portable power."
+    },
+    {
+      "id": 81,
+      "name": "Samsung Flash Drive",
+      "price": 24.99,
+      "img": "pohtos/samsung-flashdrive.jpg",
+      "instock": true,
+      "description": "Samsung USB flash drive with fast data transfer, compact design, and reliable storage solution."
+    },
+    {
+      "id": 82,
+      "name": "SanDisk 1TB External Drive",
+      "price": 89.99,
+      "img": "pohtos/sandisk-1tb.jpg",
+      "instock": true,
+      "description": "SanDisk 1TB portable SSD with fast transfer speeds, compact design, and reliable data storage."
+    }
+  ]
+}
