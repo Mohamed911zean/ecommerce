@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ecommerce.github.io/ecommerce-app-react",
+  "homepage": "https://Mohamed911zean.github.io/ecommerce",
   "name": "vite",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
