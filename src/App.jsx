@@ -253,7 +253,7 @@ const HomePage = () => {
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ecommerce">
       <NavBar />
       
       <Routes>
